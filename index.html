@@ -1,3 +1,8 @@
+<!-- Resources used for this project:
+Image generation:  DALL-E
+Image editing: https://www2.lunapic.com/
+ -->
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -7,7 +12,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
+
+    <!-- fontAwesome -->
+    <script src="https://kit.fontawesome.com/b3e02af7c3.js" crossorigin="anonymous"></script>
+
     <!-- Google Font LInks -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,16 +34,17 @@
           </div>
           <div class="col accordion" id="accordionExample">
             
+            <!-- WORK -->
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingWork">
-                <button class="accordion-button btn-outline-secondary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTest" aria-expanded="false" aria-controls="collapseThree">
+                <button class="accordion-button btn-outline-secondary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWork" aria-expanded="false" aria-controls="collapseWork">
                   Work
                 </button>
               </h2>
-              <div id="collapseTest" class="accordion-collapse collapse show" aria-labelledby="headingWork" data-bs-parent="#accordionExample">
+              <div id="collapseWork" class="accordion-collapse collapse show" aria-labelledby="headingWork" data-bs-parent="#accordionExample">
                 <div class="accordion-body container-fluid">
 
-                <div class="row">
+                <div class="row accordion-row">
                   <div class="col-12 col-md-2 col-xl-2 robotImageContainer">
                     <img class="robotImage2" src="images/robothelper.png" alt="Robot Helper">
                   </div>
@@ -67,108 +76,138 @@
                 </div>
               </div>
             </div>
+
+            <!-- FUN -->
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingFun">
-                <button class="accordion-button btn-outline-secondary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFun" aria-expanded="false" aria-controls="collapseTwo">
+                <button class="accordion-button btn-outline-secondary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFun" aria-expanded="false" aria-controls="collapseFun">
                   Fun
                 </button>
               </h2>
               <div id="collapseFun" class="accordion-collapse collapse" aria-labelledby="headingFun" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                <h4>It is fulfilling to me to create. </h4>
-                <p>
-                   I love watching something come about from nothing.
-                </p>
-                <p>
-                  Once upon a time, I dabbled in glass bead blowing.  That was a facinating hobby to learn.   Flamework requires some keen eyesight and a very 
-                  steady hand!  I only burned myself once.  Next up was 3D printing.  That took a while to get proficient at.  It was a great technical and artistic challenge.
-                  Unfortunately, the primary medium is plastic, which environmental issues aside, I just don't enjoy.  
-                </p><p>
-                  Finally I landed on crochet. There is a mathematics to crochet that is not obvious at first blush.  And the repetion is soothing and satisfying.  I prefer to work
-                  with recycled or natural yarns and hope to develop a line of steam-punk themed items to sell.
-                </p><p>
-                  And then there is Robotics.  I have been a mentor for the <a href="http://www.cougarrobotics.org/" target="_blank">Oakton High School Robitics</a>
-                  club since 2016.  The work those students put into building these robotics is only outdone by the fun they have doing it.
-                </p>
-                
+                <div class="accordion-body container-fluid">
 
+                <div class="row  accordion-row">
+                  <div class="col-12 col-md-2 col-xl-2 robotImageContainer">
+                    <img class="robotImage2" src="images/robotJoy.png" alt="Robot Helper">
+                  </div>
+                  <div class="col">
+                    <h4>It is fulfilling to me to create. </h4>
+                    <p>
+                       I love watching something come about from nothing.
+                    </p>
+                    <p>
+                      Once upon a time, I dabbled in glass bead blowing.  That was a facinating hobby to learn.   Flamework requires some keen eyesight and a very 
+                      steady hand!  I only burned myself once.  Next up was 3D printing.  That took a while to get proficient at.  It was a great technical and artistic challenge.
+                      Unfortunately, the primary medium is plastic, which environmental issues aside, I just don't enjoy.  
+                    </p><p>
+                      Finally I landed on crochet. There is a mathematics to crochet that is not obvious at first blush.  And the repetion is soothing and satisfying.  I prefer to work
+                      with recycled or natural yarns and hope to develop a line of steam-punk themed items to sell.
+                    </p><p>
+                      And then there is Robotics.  I have been a mentor for the <a href="http://www.cougarrobotics.org/" target="_blank">Oakton High School Robitics</a>
+                      club since 2016.  The work those students put into building these robotics is only outdone by the fun they have doing it.
+                    </p>
+                  </div>
+                </div>
 
                 </div>
               </div>
             </div>
 
+            <!-- PASSION -->
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingCurrent">
-                <button class="accordion-button btn-outline-secondary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCurrent" aria-expanded="false" aria-controls="collapseThree">
+                <button class="accordion-button btn-outline-secondary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCurrent" aria-expanded="false" aria-controls="collapseSample">
                   Current Passion
                 </button>
               </h2>
               <div id="collapseCurrent" class="accordion-collapse collapse" aria-labelledby="headingCurrent" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <h4>It is captivating for me to learn.</h4>
-                  <p>
-                    Have you heard about <a href="https://chat.openai.com/chat" target="_blank"> ChatGPT</a>?  It is both fascinating and scary.  I have been spending my free time delving into what it can and cannot do. 
-                    My current goal is to learn how to integrate it within this website.  Stay tuned to see what I can get happening right here in this space.
-                  </p>
+                <div class="accordion-body container-fluid">
+                  <div class="row accordion-row">
+                    <div class="col-12 col-md-2 col-xl-2 robotImageContainer">
+                      <img class="robotImage2" src="images/robotSkills.png" alt="Robot Helper">
+                    </div>
+                    <div class="col">
+                      <h4>It is captivating for me to learn.</h4>
+                      <p>
+                        Have you heard about <a href="https://chat.openai.com/chat" target="_blank"> ChatGPT</a>?  It is both fascinating and scary.  I have been spending my free time delving into what it can and cannot do. 
+                        My current goal is to learn how to integrate it within this website.  Stay tuned to see what I can get happening right here in this space.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
 
+
+            <!-- RANDOM -->
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button btn-outline-secondary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRandom" aria-expanded="false" aria-controls="collapseThree">
+              <h2 class="accordion-header" id="headingRandom">
+                <button class="accordion-button btn-outline-secondary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRandom" aria-expanded="false" aria-controls="collapseSample">
                   Random
                 </button>
               </h2>
-              <div id="collapseRandom" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <h4>It is ...</h4>
-                  <ul>
-                    <li>random fact 1</li>
-                    <li>random fact 2</li>
-                  </ul>
+              <div id="collapseRandom" class="accordion-collapse collapse" aria-labelledby="headingRandom" data-bs-parent="#accordionExample">
+                <div class="accordion-body container-fluid">
+                  <div class="row accordion-row">
+                    <div class="col-12 col-md-2 col-xl-2 robotImageContainer">
+                      <img class="robotImage2" src="images/robotRandomMirrored.png" alt="Robot Helper">
+                    </div>
+                    <div class="col">
+                      <h4>It is ...</h4>
+                      <ul>
+                        <li>random fact 1</li>
+                        <li>random fact 2</li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
 
+
+            <!-- CONNECT -->
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingConnect">
-                <button class="accordion-button btn-outline-secondary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseConnect" aria-expanded="false" aria-controls="collapseThree">
+                <button class="accordion-button btn-outline-secondary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseConnect" aria-expanded="false" aria-controls="collapseSample">
                   Connect
                 </button>
               </h2>
               <div id="collapseConnect" class="accordion-collapse collapse" aria-labelledby="headingConnect" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <h4>It is invigorating to me to share connections.</h4>
-                  <p>
-                    <!-- do I create a masking email address? -->
-                    <a href = "mailto: walkasia@gmail.com">Contact me directly via email</a> 
-                  </p>
-                  <p>
-                    <!-- do I create a masking email address? -->
-                    Or look for me in the socials.<br>
-                    <a href="http://www.linkedin.com/in/gwendyl" target="_blank">
-                      <img class = "socialButton" src="images/LI-In-Bug.png" alt="LinkedIn">
-                    </a>
-                    <a href="https://www.facebook.com/gwendyl" target="_blank">
-                      <img class="socialButton" src="images/f_logo_RGB-Blue_58.png" alt="Facebook">
-                    </a>
-                  </p>
+                <div class="accordion-body container-fluid">
+                  <div class="row accordion-row">
+                    <div class="col-12 col-md-2 col-xl-2 robotImageContainer">
+                      <img class="robotImage2" src="images/robotHands.png" alt="Robot Helper">
+                    </div>
+                    <div class="col">
+                      <h4>It is invigorating to me to share connections.</h4>
+                      <p>
+                        <!-- do I create a masking email address? -->
+                        Email me directly or look for me in the socials.<br>
+                        <a href = "mailto: walkasia@gmail.com">
+                          <em class="fa-sharp fa-solid fa-envelope socialButton"></em>
+                        </a> 
+                        <a href="http://www.linkedin.com/in/gwendyl" target="_blank">
+                          <img class = "socialButton" src="images/LI-In-Bug.png" alt="LinkedIn">
+                        </a>
+                        <a href="https://www.facebook.com/gwendyl" target="_blank">
+                          <img class="socialButton" src="images/f_logo_RGB-Blue_58.png" alt="Facebook">
+                        </a>
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
+            </div>
+            <div class="footer">
+              © Gwendyl Harter 2023
             </div>
 
           </div>
 
-          
-          
 
-          
-          <!-- <div class="col-2 rightBorderContainer">
-            <img class = "img-fluid imageContain" src="images/augmentedhair.JPEG">
-            
-          </div> -->
         </div>
+
       </div>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
