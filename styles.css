@@ -48,6 +48,6 @@ h1{
     font-size: 60px;
     vertical-align: middle;
 }
-.footer {
-    text-align: center;
-}  
+.copywrite {
+    color: lightgray;
+}
